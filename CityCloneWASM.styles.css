@@ -1,0 +1,311 @@
+/* /Layout/DKButton.razor.rz.scp.css */
+/* Hide DKButton on screens narrower than 768px */
+@media (max-width: 1000px) {
+    .hide-on-small[b-ch2eif0hf7] {
+        display: none;
+    }
+}
+
+.button-container[b-ch2eif0hf7]{
+    z-index: 10;
+}
+/* /Layout/HomeButton.razor.rz.scp.css */
+@media (max-width: 1000px) {
+    .push-self-on-small[b-8xjsgalqig] {
+        bottom: 36px;
+    }
+}
+@media (min-width: 1000px) {
+    .push-self-on-small[b-8xjsgalqig] {
+        bottom: -13px;
+        left: 90px;
+    }
+    
+}
+/* /Layout/Hotbar.razor.rz.scp.css */
+.overlay-hotbar[b-q4ybgn1a3f] {
+    position: absolute;
+    top: 120px;
+    right: -150px;
+
+
+    /* Adjust to position SVG horizontally */
+    /* transform: translate(-10%, 100%); */
+    /* Center the SVG */
+    /* width: 200px; */
+    /* Adjust SVG size */
+    /* height: auto; */
+    /* Maintain aspect ratio */
+    /* list-style-type: none; */
+
+    /* align-items: center; */
+
+    cursor: pointer;
+    /* Change cursor to pointer */
+
+    z-index: 10;
+    /* Ensure the overlay list is on top */
+}
+
+.overlay-hotbar li[b-q4ybgn1a3f] {
+    position: relative;
+    /* Make sure the item is positioned relative to its normal position */
+    display: flex;
+    background-color: rgb(199, 199, 207);
+    align-items: center;
+    justify-content: left;
+    width: 200px;
+    /* Set the width of the square */
+    height: 50px;
+    /* Set the height of the square to match the width */
+    margin-bottom: 10px;
+    /* Space between items */
+
+    padding-left: 13px;
+    /* Add padding to the left to move content to the right */
+}
+
+.overlay-hotbar li:hover[b-q4ybgn1a3f] {
+    right: 100px;
+    background-color: gold;
+}
+
+.overlay-hotbar img[b-q4ybgn1a3f] {
+    margin-right: 13px;
+    /* Space between icon and text */
+}
+/* /Layout/IFrameMainLayout.razor.rz.scp.css */
+/* /Layout/LongDKButton.razor.rz.scp.css */
+/* /Layout/MainLayout.razor.rz.scp.css */
+/* .page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+} */
+
+/* .sidebar {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+} */
+
+/* .top-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row ::deep a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row {
+        justify-content: space-between;
+    }
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth ::deep a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row, article {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+} */
+
+#blazor-error-ui[b-lmr13v5rvy] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-lmr13v5rvy] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* /Layout/MiniNavMenu.razor.rz.scp.css */
+.dropdown-menu .dropdown-menu[b-n7pv33amy5] {
+    top: -.5rem !important;
+}
+
+.nav-item[b-n7pv33amy5] {
+    flex: 1;
+    /* Ensure each item takes up equal space */
+    text-align: center;
+    /* Center text within each item */
+    color: #d7d7d7;
+    
+}
+
+.nav-item[b-n7pv33amy5]  a.active {
+    background-color: rgba(226, 230, 14, 0.37);
+    /* color: #ffa600; */
+}
+
+.nav-item[b-n7pv33amy5]  .nav-link:hover {
+    background-color: rgba(12, 197, 27, 0.1);
+    color: rgb(255, 217, 0);
+}
+
+
+@media (max-width: 1000px) {
+    .push-self-on-small[b-n7pv33amy5] {
+        bottom: 45px;
+    }
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.nav-bottom[b-guacq63eg1] {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C2C2C;
+    /* Background color */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar[b-guacq63eg1] {
+    display: flex;
+    justify-content: space-around;
+    /* Distribute items evenly */
+    padding: 0.5rem 1rem;
+}
+
+.nav-item[b-guacq63eg1] {
+    flex: 1;
+    /* Ensure each item takes up equal space */
+    text-align: center;
+    /* Center text within each item */
+    color: #d7d7d7;
+}
+
+.nav-item[b-guacq63eg1]  a.active {
+    background-color: rgba(255, 198, 12,0.37);
+    color: #ffa600;
+}
+
+.nav-item[b-guacq63eg1]  .nav-link:hover {
+    background-color: rgba(255, 198, 12,0.1);
+    color: rgb(255, 217, 0);
+}
+
+.navbar-toggler:checked[b-guacq63eg1] {
+    background-color: rgb(255, 198, 12);
+}
+
+.navbar-toggler:checked ~ .nav-scrollable[b-guacq63eg1] {
+    display: block;
+}
+
+
+.bi[b-guacq63eg1] {
+    display: inline-block;
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+    top: -1px;
+    background-size: cover;
+}
+
+.bi-house-door-fill-nav-menu[b-guacq63eg1] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+}
+
+.bi-view-360-fill-nav-menu[b-guacq63eg1] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+
+}
+/* /Layout/RegisterForm.razor.rz.scp.css */
+.image-hover[b-jeabvcmqau] {
+
+
+  width: 400px;
+  /* Specify the width */
+  height: 100px;
+  /* Specify the height */
+  background-image: url('https://www.thanhphocaphe.com/view360/img/dk.f6055e10.svg');
+  /* Initial background image */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+  background-position: center;
+  /* Center the image within the div */
+  background-size: 60% 60%;
+  /* Make the background image smaller */
+  /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out;
+  /* Smooth transition */
+
+}
+
+.image-hover:hover[b-jeabvcmqau] {
+  background-image: url('https://www.thanhphocaphe.com/view360/img/dka.4220d96d.svg');
+  /* Change on hover */
+}
+
+.link-button[b-jeabvcmqau] {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.validation-placeholder[b-jeabvcmqau] {
+  height: 1.5em;
+  /* Adjust this value based on the expected size of your validation message */
+  color: red;
+  /* Optional: Style for validation messages */
+  line-height: 1.5em;
+  /* Center text vertically if needed */
+}
+/* /Layout/Test.razor.rz.scp.css */
+/* /Pages/iframes/NhaTesla.razor.rz.scp.css */
